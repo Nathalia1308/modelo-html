@@ -1,0 +1,104 @@
+body{
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    margin: 0 auto ;
+    width: 80%;
+    height: 100%;
+    background-color: aquamarine;
+}
+
+.topo{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    background-color: antiquewhite;
+}
+
+.logo{
+    width: 20%;
+    height: 100%;
+    background-color: blueviolet;
+}
+
+.menu{ 
+    width: 100%;
+    height: 20%;
+    background-color: black;
+}
+
+.menu ul{
+    padding: 0px;
+}
+
+.menu li{
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    text-align: center;
+    padding: 0 0;
+}
+
+.menu a{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 10pt;
+    text-decoration: none;
+    color: red;
+    background-color: bisque;
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.topo-banner{
+    width: 80%;
+    height: 100%;
+}
+
+.banner{
+    width: 100%;
+    height: 80%;
+    background-color: blue;
+}
+
+.principal{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+    height: 70%;
+    background-color: green;
+}
+
+.lateral{
+    width: 15%;
+    height: 100%;
+    background-color: rgb(1, 99, 190);
+
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 85%;
+    height: 100%;
+    background-color: orchid;
+}
+
+.rodape{
+    padding: 5px;
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+
+.caixa{
+    text-align: center;
+    margin: 2px;
+    height: 20%;
+    width: 30%;
+    background-color: brown;
+}
